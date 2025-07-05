@@ -64,7 +64,7 @@ export default function HeroSection() {
             transition={{ delay: 0.8, duration: 1 }}
             className="text-6xl md:text-8xl font-bold mb-6 liquid-gradient font-sora"
           >
-            Alex Chen
+            John Doe
           </motion.h1>
 
           {/* Subheading */}
