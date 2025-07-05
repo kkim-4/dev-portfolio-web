@@ -144,7 +144,7 @@ export default function ContactSection() {
               <CardContent className="space-y-4">
                 <div className="flex items-center gap-3">
                   <Mail className="h-5 w-5 text-cyan-400" />
-                  <span className="text-white/80">alex.chen@example.com</span>
+                  <span className="text-white/80">john.doe@example.com</span>
                 </div>
 
                 <div className="flex items-center gap-3">
@@ -172,7 +172,7 @@ export default function ContactSection() {
                     </div>
                     <div className="flex-1">
                       <p className="text-white/80 text-sm">
-                        Hi! I'm Alex's AI assistant. I can help answer questions about his experience, schedule
+                        Hi! I'm John's AI assistant. I can help answer questions about his experience, schedule
                         meetings, or provide project details. What would you like to know?
                       </p>
                     </div>
@@ -180,7 +180,7 @@ export default function ContactSection() {
 
                   <div className="flex flex-wrap gap-2">
                     <Badge variant="secondary" className="bg-white/10 text-white cursor-pointer hover:bg-white/20">
-                      Tell me about Alex's experience
+                      Tell me about John's experience
                     </Badge>
                     <Badge variant="secondary" className="bg-white/10 text-white cursor-pointer hover:bg-white/20">
                       What technologies does he use?
@@ -231,7 +231,7 @@ export default function ContactSection() {
           className="mt-20 pt-8 border-t border-white/10 text-center"
         >
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <div className="text-white/60">© 2024 Alex Chen. Crafted with ❤️ and cutting-edge tech.</div>
+            <div className="text-white/60">© 2025 John Doe. Crafted with ❤️ and cutting-edge tech.</div>
 
             <div className="flex items-center gap-4">
               <div className="w-16 h-1 bg-gradient-to-r from-cyan-400 to-purple-400 rounded-full animate-pulse" />
