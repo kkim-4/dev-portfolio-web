@@ -9,16 +9,16 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
 const sora = Sora({ subsets: ["latin"], variable: "--font-sora" })
 
 export const metadata: Metadata = {
-  title: "Alex Chen - Creative Technologist",
+  title: "John Doe - Creative Technologist",
   description: "Inventing tomorrow's web, one line of code at a time.",
   keywords: ["developer", "portfolio", "full-stack", "creative technologist"],
-  authors: [{ name: "Alex Chen" }],
+  authors: [{ name: "John Doe" }],
   openGraph: {
-    title: "Alex Chen - Creative Technologist",
+    title: "John Doe - Creative Technologist",
     description: "Inventing tomorrow's web, one line of code at a time.",
     type: "website",
   },
-    generator: 'v0.dev'
+    generator: 'senotron'
 }
 
 export default function RootLayout({
