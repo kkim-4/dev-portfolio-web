@@ -99,7 +99,7 @@ export default function HeroSection() {
               asChild // This tells the Button component to render as its child (the <a> tag)
             >
               {/* The <a> tag handles the download */}
-              <a href="//Kevin_Kim_Resume.pdf" download="Kevin_Kim_Resume.pdf">
+              <a href="/Kevin_Kim_Resume.pdf" download="Kevin_Kim_Resume.pdf">
                 <Download className="mr-2 h-5 w-5" />📄 Download Resume
               </a>
             </Button>
