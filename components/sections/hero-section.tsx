@@ -1,4 +1,4 @@
-"use client"
+"use client" // This directive is important for client-side components
 
 import { useRef, useState, useEffect } from "react"
 import { motion } from "framer-motion"
@@ -64,7 +64,7 @@ export default function HeroSection() {
             transition={{ delay: 0.8, duration: 1 }}
             className="text-6xl md:text-8xl font-bold mb-6 liquid-gradient font-sora"
           >
-            John Doe
+            Kevin Kim
           </motion.h1>
 
           {/* Subheading */}
@@ -91,12 +91,17 @@ export default function HeroSection() {
             >
               <Rocket className="mr-2 h-5 w-5" />🚀 Explore My Universe
             </Button>
+            {/* Download Resume Button - MODIFIED */}
             <Button
               size="lg"
               className="glass-morphism hover:animate-glow text-white border-purple-400 hover:border-purple-300 px-8 py-4 text-lg bg-transparent"
               variant="outline"
+              asChild // This tells the Button component to render as its child (the <a> tag)
             >
-              <Download className="mr-2 h-5 w-5" />📄 Download Resume
+              {/* The <a> tag handles the download */}
+              <a href="//Kevin_Kim_Resume.pdf" download="Kevin_Kim_Resume.pdf">
+                <Download className="mr-2 h-5 w-5" />📄 Download Resume
+              </a>
             </Button>
           </motion.div>
         </motion.div>

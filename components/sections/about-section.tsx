@@ -16,8 +16,10 @@ export default function AboutSection() {
         >
           <h2 className="text-4xl md:text-6xl font-bold mb-6 liquid-gradient font-sora">About Me</h2>
           <p className="text-xl text-white/80 max-w-3xl mx-auto">
-            I'm a creative technologist who bridges the gap between design and development, crafting digital experiences
-            that push the boundaries of what's possible on the web.
+            Hello, I'm Kevin Kim. I am a rising senior studying Computer Science and Neuroscience & Behavioral Biology. 
+            I'm currently interested in pursuing a career in computer science possibly in Machine Learning where I can 
+            explore neural networks and generative model creation as an extension of pushing the boundaries of what I've 
+            learned about the brain as someone who also studied neuroscience.
           </p>
         </motion.div>
 
