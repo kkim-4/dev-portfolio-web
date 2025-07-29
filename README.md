@@ -94,3 +94,4 @@ It’s **next-gen**, **SEO-friendly**, and designed to get you noticed by recrui
 
 This README and portfolio were **crafted by artificial intelligence** for maximum creativity, SEO, and developer appeal. ✨
 # dev-portfolio
+# dev-portfolio-web
